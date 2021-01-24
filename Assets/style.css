@@ -1,0 +1,50 @@
+body{
+    background-color: #027671;
+}
+.header{
+    text-align: center;
+    width: 100%;
+    height: 125px;
+    padding: 25px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: ;
+    color:#D2A787;
+}
+h1{
+    font-size: 5rem;
+}
+.container{
+    background-color:#EDC4AE ;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.column{
+    padding-top:5px;
+    display:block;
+    height: 100vh;
+    column-span: 100%;
+}
+h2{
+  font-family: 'Calibri', sans-serif; 
+  font-weight: bold;
+  color:#027671;
+  text-align:center;
+}
+.citySearch{
+    float:left;  
+}
+.submitBtn{
+    float:right;
+}
+i{
+    color:#027671;
+}
+#cityInfo{
+    display:block;
+}
+#forecast{
+    display:block;
+}
