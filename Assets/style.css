@@ -44,7 +44,18 @@ i{
 }
 #cityInfo{
     display:block;
+    background-color:#F6F2E7;
+    margin:5px;
+    padding:5px;
+    border-radius: 5px;
 }
 #forecast{
     display:block;
+    background-color:#F6F2E7;
+    margin:5px;
+    padding:5px;
+    border-radius: 5px;
+}
+.fvDay{
+font-size: x-small;
 }

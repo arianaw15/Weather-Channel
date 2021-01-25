@@ -1,52 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Weather Report</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.css">
-<link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="style.css" />
     <style>
-        .header{
-            font-family: 'Monoton', cursive;
-        }
+      .header {
+        font-family: "Monoton", cursive;
+      }
     </style>
   </head>
   <body>
-      <div class="header">
-          <h1>Weather Channel</h1>
-      </div>
-      <div class="container">
-          <div class="row">
-          <div class="col-4 column" id="search">
-            <h2>Search for a City</h2>
-                <div class="citySearch">
-                  <label for="cityName"></label>
-                    <input type="text" id="cityName"><br>
-                   </div> 
-                  <div class="searchBtn"><button><i class="fa fa-search fa-sm" aria-hidden="true"></i></button></div>
+    <div class="header">
+      <h1>Weather Channel</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 column" id="search">
+          <h2>Search for a City</h2>
+          <div class="citySearch">
+            <label for="cityName"></label>
+            <input type="text" id="cityName" /><br />
           </div>
-          <div class="col-8 column">
-              <div class="row" id="cityInfo">
-                <h2>Information</h2>
-              </div>
-              <div class="row" id="forecast">
-                <h2>5-Day Forecast:</h2>
-              </div>
+          <div class="searchBtn">
+            <button>
+              <i class="fa fa-search fa-sm" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+        <div class="col-sm-8 column">
+          <div class="row" id="cityInfo">
+            <h2>Information</h2>
+            <h4 id="name"></h4>
+            <div class="date"></div>
+  <div class="temp"></div>
+  <div class="humidity"></div>
+  <div class="wind"></div>
+  <div class="weatherEx"></div>
+          </div>
+          <div class="row" id="forecast">
+            <h2>5-Day Forecast:</h2>
+            <div class="temp1"></div>
+            <div class="temp2"></div>
+            <div class="temp3"></div>
+            <div class="temp4"></div>
+            <div class="temp5"></div>
+          </div>
           </div>
         </div>
       </div>
-      
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
   </body>
 </html>
