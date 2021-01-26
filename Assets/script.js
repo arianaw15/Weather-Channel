@@ -44,11 +44,11 @@ var cityName = $("#cityName").val();
               console.log(response);
               var nextDay= d.setDate(d.getDate() + 1);
               console.log(nextDay);
-              $(".temp1").text("Day 1: "+response.list[0].weather[0].main);
-              $(".temp2").text("Day 2: "+response.list[1].weather[0].main);
-              $(".temp3").text("Day 3: "+response.list[2].weather[0].main);
-              $(".temp4").text("Day 4: "+response.list[3].weather[0].main);
-              $(".temp5").text("Day 5: "+response.list[4].weather[0].main);
+              $(".temp1").text("Temperature will be "+response.list[0].main.temp);
+              $(".temp2").text("Temperature will be "+response.list[1].main.temp);
+              $(".temp3").text("Temperature will be "+response.list[2].main.temp);
+              $(".temp4").text("Temperature will be "+response.list[3].main.temp);
+              $(".temp5").text("Temperature will be "+response.list[4].main.temp);
               
     })
 };

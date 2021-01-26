@@ -48,6 +48,8 @@ i{
     margin:5px;
     padding:5px;
     border-radius: 5px;
+    font-family: 'Calibri', sans-serif; 
+  color:#2EB4AD;
 }
 #forecast{
     display:block;
@@ -55,7 +57,15 @@ i{
     margin:5px;
     padding:5px;
     border-radius: 5px;
+    font-family: 'Calibri', sans-serif; 
+  color:#2EB4AD;
 }
 .fvDay{
 font-size: x-small;
+}
+
+h4{
+    font-family: 'Calibri', sans-serif; 
+  font-weight: bold;
+  color:#2EB4AD;
 }
