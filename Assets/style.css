@@ -69,3 +69,10 @@ h4{
   font-weight: bold;
   color:#2EB4AD;
 }
+
+.uvLow{
+    background-color: #027671;
+}
+.uvHigh{
+    background-color: #D2A787;
+}
