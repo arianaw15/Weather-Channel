@@ -7,7 +7,6 @@ function renderButtons() {
         $("#search").append(newBtn).addClass(".newButton");
         weatherToday();
         storeBtn();
-
     })
 };
 renderButtons();
@@ -63,6 +62,7 @@ var uv= response.daily[0].uvi
 //Code to select buttons created 
 $("document").on("click", ".newButton", function () {
     console.log(cityName);
+    weatherToday();
 });
 
 function storeBtn() {
