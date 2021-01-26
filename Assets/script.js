@@ -1,5 +1,4 @@
 
-var cities= [""]
 function renderButtons(){
 $(".searchBtn").on("click", function () {
     var cityName = $("#cityName").val().trim();
@@ -52,3 +51,8 @@ var cityName = $("#cityName").val();
               
     })
 };
+
+//Code to select buttons created 
+$(document).on("click",".newButton",function(){
+console.log(cityName)
+});
